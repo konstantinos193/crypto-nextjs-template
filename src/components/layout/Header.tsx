@@ -43,10 +43,6 @@ const Header: React.FC = () => {
             About Us
             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-grizzle-red transition-all duration-300 ease-in-out group-hover:w-full"></span>
           </a>
-          <a href="#tokenomics" className="text-grizzle-white hover:text-grizzle-red transition-all duration-300 ease-in-out text-base lg:text-lg font-semibold relative group">
-            Tokenomics
-            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-grizzle-red transition-all duration-300 ease-in-out group-hover:w-full"></span>
-          </a>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -88,16 +84,6 @@ const Header: React.FC = () => {
               onClick={toggleMobileMenu}
             >
               About Us
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-grizzle-red transition-all duration-300 ease-in-out group-hover:w-full"></span>
-            </a>
-          </li>
-          <li>
-            <a 
-              href="#tokenomics" 
-              className="block text-grizzle-white hover:text-grizzle-red transition-all duration-300 ease-in-out text-xl font-semibold relative group" 
-              onClick={toggleMobileMenu}
-            >
-              Tokenomics
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-grizzle-red transition-all duration-300 ease-in-out group-hover:w-full"></span>
             </a>
           </li>
