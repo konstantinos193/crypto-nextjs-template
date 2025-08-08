@@ -10,11 +10,7 @@ const HeroSection: React.FC = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
           {/* Left Content */}
           <div className="w-full lg:w-1/2 text-center lg:text-left">
-            {/* Badge */}
-            <div className="inline-flex items-center space-x-2 bg-grizzle-red/10 border border-grizzle-red/20 rounded-full px-4 py-2 mb-6 animate-fade-in-up">
-              <div className="w-2 h-2 bg-grizzle-red rounded-full animate-pulse"></div>
-              <span className="text-sm font-medium text-grizzle-red">Presale Coming Soon</span>
-            </div>
+
 
             {/* Main Heading */}
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6 animate-fade-in-up">
@@ -53,7 +49,7 @@ const HeroSection: React.FC = () => {
             <div className="relative">
               {/* Main Bear Image */}
               <img
-                src="https://i.imgur.com/Y6MJ7xm.png"
+                src="https://i.imgur.com/kQwUknZ.png"
                 alt="Grizzle Bear Mascot"
                 className="relative z-10 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-auto object-contain drop-shadow-2xl animate-bounce-slow"
               />
